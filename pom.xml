@@ -11,7 +11,7 @@
 	</parent>
 	<groupId>br.com.benefrancis</groupId>
 	<artifactId>jwt-authentication</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>jwt-authentication</name>
 	<description>Spring Boot JWT Authentication</description>
 	<properties>
@@ -85,6 +85,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>jwt-authentication</finalName>
 	</build>
 
 </project>
